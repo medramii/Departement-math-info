@@ -1,0 +1,87 @@
+body{
+margin: 0;
+padding: 0;
+background-color:  #0092ca;
+}
+
+.formulaire{
+    border-radius: 20px;
+    background-color: #EEEEEE;
+    padding: 10px;
+}
+
+img{
+    padding-left: 55px;
+    width: 300px;
+}
+
+.Login{
+    padding: 20px;
+    background-color: #EEEEEE;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+input{
+    margin: 10px;
+    width: 350px;
+    padding: 8px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    display: table;
+    
+}
+
+input[type="text"]{
+    padding-left: 30px;
+}
+
+input[type="text"]:focus{
+    border-color: #0092ca;
+    box-shadow: 0 0 8px 0 #0092ca;
+}
+
+input[type="password"]{
+    padding-left: 30px;
+}
+
+input[type="password"]:focus{
+    border-color: #0092ca;
+    box-shadow: 0 0 8px 0 #0092ca;
+}
+
+input[type="submit"]{
+    color: #0092ca;
+    border: 2px solid #0092ca;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+input[type="submit"]:hover{
+    background-color: #0092ca;
+    color: #EEEEEE;
+}
+
+.inputIcon{
+    position: relative;
+}
+
+.inputIcon i{
+    position: absolute;
+    left: 20px;
+    top: 8px;
+    color: #393e46;
+}
+
+.inputIcon input[type="text"]:focus + i{
+    color: #0092ca;
+}
+
+.inputIcon input[type="password"]:focus + i{
+    color: #0092ca;
+}
+
