@@ -12,7 +12,7 @@
 		<div class="formulaire">
 			<form action="">
 				<div class="inputIcon">
-					<input type="text" name="username" placeholder="Username or Email">	
+					<input type="text" name="username" placeholder="Username or Email">
 					<i class="fas fa-user-alt"></i>
 				</div>
 
@@ -22,17 +22,17 @@
 				</div>
 
 				<input type="submit" name="login" value="Login">
-				
+
 			</form>
 		</div>
 	</div>
-	
+
 </body>
 </html>
 
 
 		<!--
-			
+
 			<div style="border: solid 3px #EEEEEE; height: 300px;width: 600px;margin:100px auto 100px 330px  ; display: table;background-color: #0092CA">
 
 			<div style="height: 100px; background-color: #EEEEEE">
@@ -41,14 +41,14 @@
 			</div>
 
 			<div style="margin-top: 50px;margin-left: 100px">
-				<div><label style="display: inline-block;width: 200px;font-size: 20px;font-family: unset;"> Email :</label><input type="text"></div> 
-				<div><label style="display: inline-block;width: 200px;font-size: 20px;font-family: unset;margin-top: 5px">Mot de passe :</label><input type="password"></div> 
+				<div><label style="display: inline-block;width: 200px;font-size: 20px;font-family: unset;"> Email :</label><input type="text"></div>
+				<div><label style="display: inline-block;width: 200px;font-size: 20px;font-family: unset;margin-top: 5px">Mot de passe :</label><input type="password"></div>
 				<div style="margin-top: 10px; margin-left: 267px"><input type="submit" value="Connexion" style="background-color: #EEEEEE"></div>
 			</div>
 
 		</div>
-			
-			
+
+
 		<footer style="background-color:#393E46;">
 			<h5 style="font-size: 10px; margin-left: 50px"><i>Copyright © 2020 LP Genie Informatique</i></h5>
 			<div style="margin-right: 50px" align="right">
@@ -63,5 +63,5 @@
 				<a href=""><li style="display: inline-block; margin-left: 50px; font-size: 10px">| Contactez nous</li></a>
 			</ul>
 		</footer>
-	
+
 	-->

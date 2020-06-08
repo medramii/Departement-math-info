@@ -37,10 +37,6 @@
 
 
 
-
-
-
-
   <div id="Filiere" style="height:400px;width:100%;background:#0092ca;margin:150px auto;">Filiere</div>
   <div id="About" style="height:400px;width:100%;background:#0092ca;margin:150px auto;">About</div>
   <div id="Contact" style="height:400px;width:100%;background:#0092ca;margin:150px auto;">Contact</div>

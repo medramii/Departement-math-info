@@ -32,7 +32,8 @@ input{
     border-radius: 10px;
     box-sizing: border-box;
     display: table;
-    
+    outline: none;
+
 }
 
 input[type="text"]{
@@ -41,7 +42,7 @@ input[type="text"]{
 
 input[type="text"]:focus{
     border-color: #0092ca;
-    box-shadow: 0 0 8px 0 #0092ca;
+    box-shadow: 0 0 2px 0 #0092ca;
 }
 
 input[type="password"]{
@@ -50,7 +51,7 @@ input[type="password"]{
 
 input[type="password"]:focus{
     border-color: #0092ca;
-    box-shadow: 0 0 8px 0 #0092ca;
+    box-shadow: 0 0 2px 0 #0092ca;
 }
 
 input[type="submit"]{
@@ -84,4 +85,3 @@ input[type="submit"]:hover{
 .inputIcon input[type="password"]:focus + i{
     color: #0092ca;
 }
-
