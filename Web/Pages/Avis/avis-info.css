@@ -1,0 +1,30 @@
+body{
+  background-color: #0092ca;
+  color: #eeeeee;
+}
+
+.container{
+  background-color: #393e46;
+  border: 1px solid black;
+  width:70%;
+  padding: 20px;
+  border-radius: 30px;
+  transition: all 1s;
+}
+
+.container:hover{
+  transform: scale(1.01);
+}
+
+.discrption{
+  padding: 10px 30px 10px 30px;
+}
+
+a{
+  text-decoration: none;
+  color: #eeeeee;
+}
+
+hr{
+  border: 1px solid #eeeeee;
+}
