@@ -5,7 +5,7 @@ body{
 .div{
 	border:2px solid#0092CA;
 	border-radius: 3px;
-	height: 220px;
+	height: 280px;
 	padding: 5px;
 
 }
@@ -16,7 +16,7 @@ body{
 }
 
 .container{
-padding: 10px;	
+padding: 10px;
 margin-left: 250px;
 margin-right: 250px;
 box-shadow: 5px 10px 10px 5px gray;
@@ -26,9 +26,9 @@ display: flex;
 flex-direction: row;
 justify-content: space-around;
 text-align: center;
-height: 560px;
+height: 590px;
 
-	
+
 }
 .cls,.cl{
 	width: 270px;
@@ -41,17 +41,17 @@ height: 560px;
 .cls:hover{     background-color: lightgray; transition: 0.8s;   }
 
 
-.cls:focus{  border: 1.5px solid#0092CA;  transition: 0.2s;   }
+.cls:focus{  border: 1.7px solid#0092CA;  transition: 0.2s;   }
 
-.cl:focus{  border: 1.5px solid#0092CA ;    transition: 0.2s; }
+.cl:focus{  border: 1.7px solid#0092CA ;    transition: 0.2s; }
 
 .cl:hover{  background-color: lightgray; transition: 0.8s;  }
 
-.send:focus{  border: 1.5px solid#0092CA ;   transition: 0.2s;  }
+.send:focus{  border: 1.7px solid#0092CA ;   transition: 0.2s;  }
 
 .send:hover{  background-color: lightgray; transition: 0.8s;  }
 
-.cl{	height: 120px; }
+.cl{	max-height: 170px; min-height: 170px; max-width: 270px; min-width: 270px;}
 
 .send{
 	height: 30px;
