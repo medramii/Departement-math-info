@@ -1,0 +1,136 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #EEEEEE;
+    
+} 
+
+footer {
+    background-color: #222831; 
+    width: 100%;
+    height: auto;
+    bottom: 0;
+    position: absolute;
+    padding: 20px 20px 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.left-box{
+    text-align: center;
+    right: 50%;
+}
+
+.fa-chevron-circle-up{
+    position: absolute;
+    left: 90%;
+    top: 0px;
+    color: #0092ca;
+    font-size: 30px;
+}
+
+.fa-chevron-circle-up:hover{
+    color: #EEEEEE;
+}
+
+.social-media  i{
+    background-color: #EEEEEE;
+    color: #393e46;
+    margin: 20px;
+    font-size: 20px;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    line-height: 30px;
+    font-size: 16px
+}
+
+img{
+    width: 150px;
+    margin: 5px;
+}
+
+h2{
+    color: #0092ca;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.fa-twitter:hover{
+    background-color: #1da1f2;
+    color: white;
+}
+
+.fa-facebook-f:hover{
+    color: white;
+    background-color: #4267B2;
+}
+
+.fa-youtube:hover{
+    background-color: red;
+    color: white;
+}
+
+.fa-google-plus-g:hover{
+    background-color: red;
+    color: white;
+}
+
+.right-box{
+    margin-left: 50px;
+}
+
+.local{
+    margin-top: 20px;
+}
+
+.local i{
+    color: #EEEEEE;
+    margin-right: 15px;
+}
+
+.phone i{
+    color: #EEEEEE;
+    margin: 10px 10px 0 0;
+}
+
+.fax i{
+    color: #EEEEEE;
+    margin: 10px 10px 0 0;
+}
+
+.web-site i{
+    color: #EEEEEE;
+    margin: 10px 10px 20px 0;
+}
+
+span{
+    color: #EEEEEE;
+    font: outline;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.bottom-box{
+    width: 100%;
+    height: 30px;
+    background-color: #0092ca;
+    bottom: -30px;
+    position: absolute;
+    text-align: center;
+}
+
+h3{
+    color: #393e46;
+    font-family: serif;
+    font-size: 12px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
