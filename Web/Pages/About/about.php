@@ -56,7 +56,9 @@
 
           <div class="carousel-item">
             <div class="card mb-3 container map-container">
+              <div class="row no-gutters">
                   <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3437.8844191227845!2d-8.871443685544811!3d30.496021304054707!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xdb17364c0b9166b%3A0xf4d0e2d7847e8c26!2sFacult%C3%A9%20Polydisciplinaire%20de%20Taroudant!5e0!3m2!1sen!2sma!4v1591719203651!5m2!1sen!2sma" width="975vh" height="350vh" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+              </div>
             </div>
           </div>
         </div>
