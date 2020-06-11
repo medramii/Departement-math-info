@@ -1,0 +1,41 @@
+
+body{
+  text-align:center;
+}
+.container{   border: 3px solid#EEEEEE;    box-shadow: 5px 10px 10px 5px lightgray; }
+
+.prem{  width: 830px; height: 290px; text-align: center; background-color: #EEEEEE;}
+
+
+.prem,.h1{  color: blue; text-align:center; }
+
+.deux,.trois,.qautre,.cinq{ font-size: 20px;}
+
+.img2,.im2{    text-align: center;  width: 830px;     }
+
+.img1,.im1{    text-align: center;   width:830px;  }
+
+.prem,.img2,.img1,.deux,.trois,.qautre,.cinq,.chef{  display:inline-block; justify-content:space-around; box-shadow: 5px 10px 14px 5px lightgray; text-align: left; border-radius: 4px;}
+
+.na,.h3,.tr,.qau,.cin{ display:inline-block; justify-content:space-around; border-radius: 4px; text-align: center;}
+
+
+.h3{ background-color: #0092CA; height: 45px;  padding:8px; font-style: oblique; width: 830px;  }
+
+ .trois{ center; border-bottom: 1px solid black; border-left: 1px solid black;  border-right: 1px solid black; height: 470px; width: 830px; padding: 10px;}
+
+
+.tr{  background-color: #0092CA; height:45px; padding:8px; font-style: oblique; width: 830px; }
+
+
+.qau{ background-color: #0092CA; height:45px;  padding:8px;   font-style: oblique; width: 830px; }
+
+.cin{  background-color: #0092CA; height:45px; padding:8px;  font-style: oblique; width: 830px;  }
+
+.na{  background-color: #0092CA; height:65px;  padding:6px;   font-style: oblique; width:830px;}
+
+.li{ color: black; text-align: center; font-style: bold;}
+
+.deux,.qautre,.cinq{height: 300px; width: 830px; padding: 10px; border-bottom: 1px solid black; border-left: 1px solid black;  border-right: 1px solid black;}
+
+.chef{height:80px; width: 830px;  text-align: center; border-bottom: 1px solid black; border-left: 1px solid black;  border-right: 1px solid black;}
