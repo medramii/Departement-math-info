@@ -1,19 +1,15 @@
-*{
+.footer_container *{
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+    line-height: 1.1;
 }
 
-body{
-    background-color: #EEEEEE;
-    
-} 
-
-footer {
-    background-color: #222831; 
+.footer_container{
+    background-color: #222831;
     width: 100%;
     height: auto;
-    bottom: 0;
+    margin-bottom: 0;
     position: absolute;
     padding: 20px 20px 0 20px;
     display: flex;
@@ -21,12 +17,12 @@ footer {
     justify-content: space-evenly;
 }
 
-.left-box{
+.footer_container .left-box{
     text-align: center;
     right: 50%;
 }
 
-.fa-chevron-circle-up{
+.footer_container .fa-chevron-circle-up{
     position: absolute;
     left: 90%;
     top: 0px;
@@ -34,11 +30,11 @@ footer {
     font-size: 30px;
 }
 
-.fa-chevron-circle-up:hover{
+.footer_container .fa-chevron-circle-up:hover{
     color: #EEEEEE;
 }
 
-.social-media  i{
+.footer_container .social-media  i{
     background-color: #EEEEEE;
     color: #393e46;
     margin: 20px;
@@ -50,73 +46,82 @@ footer {
     font-size: 16px
 }
 
-img{
+.footer_container img{
     width: 150px;
     margin: 5px;
 }
 
-h2{
+.footer_container h2{
     color: #0092ca;
     margin-top: 10px;
     margin-bottom: 10px;
     font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+    font-weight: bold
 }
 
-.fa-twitter:hover{
+.footer_container hr{
+    width: 50px;
+    height: 2px;
+    border: 1px solid #0092ca;
+    border-radius: 25%
+}
+
+.footer_container .fa-twitter:hover{
     background-color: #1da1f2;
     color: white;
 }
 
-.fa-facebook-f:hover{
+.footer_container .fa-facebook-f:hover{
     color: white;
     background-color: #4267B2;
 }
 
-.fa-youtube:hover{
+.footer_container .fa-youtube:hover{
     background-color: red;
     color: white;
 }
 
-.fa-google-plus-g:hover{
+.footer_container .fa-google-plus-g:hover{
     background-color: red;
     color: white;
 }
 
-.right-box{
+.footer_container .right-box{
     margin-left: 50px;
 }
 
-.local{
+.footer_container .local{
     margin-top: 20px;
 }
 
-.local i{
+.footer_container .local i{
     color: #EEEEEE;
     margin-right: 15px;
 }
 
-.phone i{
+.footer_container .phone i{
     color: #EEEEEE;
     margin: 10px 10px 0 0;
 }
 
-.fax i{
+.footer_container .fax i{
     color: #EEEEEE;
     margin: 10px 10px 0 0;
 }
 
-.web-site i{
+.footer_container .web-site i{
     color: #EEEEEE;
     margin: 10px 10px 20px 0;
 }
 
-span{
+.footer_container span{
     color: #EEEEEE;
     font: outline;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-.bottom-box{
+.footer_container .bottom-box{
     width: 100%;
     height: 30px;
     background-color: #0092ca;
@@ -125,12 +130,16 @@ span{
     text-align: center;
 }
 
-h3{
+.footer_container h3{
     color: #393e46;
     font-family: serif;
     font-size: 12px;
+    font-weight: 700;
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%,-50%);
+}
+.footer_container a{
+  text-decoration: none
 }

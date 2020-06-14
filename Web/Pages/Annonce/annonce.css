@@ -1,28 +1,25 @@
-*{
+.annonce_container *{
   box-sizing: border-box;
 }
-body{
-  background-color: #0092ca
-}
-.box{
+.annonce_container{
   position: relative;
   width: 500px;
   height: 300px;
   margin: 50px auto;
   box-shadow: 0 0 15px #393e46;
   border-radius: 7.5px;
-  overflow: hidden;
+  overflow: hidden
 }
-.box > *{
+.annonce_container > *{
   position: absolute;
   width: 100%;
   height: 100%;
 }
-.box .cover img{
+.annonce_container .cover img{
   width: 100%;
-  height: 100%;
+  height: 100%
 }
-.box .description{
+.annonce_container .description{
   background-color:rgba(57, 62, 70, 0.5);
   color: #eeeeee;
   height: 20%;
@@ -31,18 +28,18 @@ body{
   text-align: center;
   transition: .5s all ease-in-out
 }
-.box:hover .description{
+.annonce_container:hover .description{
   height: 100%
 }
-.box:hover .description > .header, .box:hover .description > .body, .box:hover .description > .footer{
+.annonce_container:hover .description > .header, .annonce_container:hover .description > .body, .annonce_container:hover .description > .footer{
   opacity: 100%
 }
-.box .description .header{
+.annonce_container .description .header{
   height: 15%;
   opacity: 60%;
   transition: .5s all ease-in-out
 }
-.box .description .body{
+.annonce_container .description .body{
   height: 70%;
   width: 90%;
   margin: 0 auto;
@@ -50,12 +47,12 @@ body{
   opacity: 0;
   transition: .5s all ease-in-out
 }
-.box .description .footer{
+.annonce_container .description .footer{
   height: 15%;
   padding-top: 15px;
   opacity: 0;
   transition: .5s all ease-in-out
 }
-.box .description .body::-webkit-scrollbar {
+.annonce_container .description .body::-webkit-scrollbar {
   display: none;
 }

@@ -1,40 +1,30 @@
-body{
-  background-color: #0092ca;
+.avis_container{
+  display: inline-block
 }
-.container{
-  display: grid;
-  grid-gap: 30px;
-  justify-content: center;
-  grid-template-columns: repeat(auto-fill,minmax(220px,1fr)) ;
-  padding: 30px 30px;
-  background-color: #0092ca;
-}
-.card{
-  border-radius: 15px;
+.avis_container .card{
   display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: all 1s;
   background-color: #393e46;
   color: #eeeeee;
+  border-radius: 15px;
+  align-items: center;
+  justify-content: center;
   cursor: pointer;
+  transition: all .2s ease-in-out
 }
-
-.card:hover{
-    transform: scale(0.9) skew(-10deg);
+.avis_container .card:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 5px #393e46;
+    z-index: 999;
 }
-
-.bg-primary{
+.avis_container .bg-primary{
   background-color: #eeeeee;
 }
 
-a.link,
-a.link:hover {
+.avis_container a.link{
   color: inherit;
   text-decoration: none;
 }
-
-.date{
+.avis_container .date{
   font-size: 10px;
   text-align: right;
 }

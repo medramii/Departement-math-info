@@ -232,7 +232,6 @@ button:focus {
   outline: 5px auto -webkit-focus-ring-color;
 }
 
-input,
 button,
 select,
 optgroup,
@@ -243,8 +242,7 @@ textarea {
   line-height: inherit;
 }
 
-button,
-input {
+button {
   overflow: visible;
 }
 
@@ -283,11 +281,6 @@ button::-moz-focus-inner,
   border-style: none;
 }
 
-input[type="radio"],
-input[type="checkbox"] {
-  box-sizing: border-box;
-  padding: 0;
-}
 
 textarea {
   overflow: auto;

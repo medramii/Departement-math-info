@@ -2,22 +2,21 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>footer</title>
+    <title></title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="footer.css">
-    <link rel="stylesheet" href="..\..\fontawesome\css\all.css">
+    <link rel="stylesheet" href="http://localhost/Departement-math-info/Web/Pages/footer/footer.css">
 </head>
 <body>
-    <footer>
+    <div class="footer_container">
         <div class="left-box">
             <a href="#navbar"><i class="fas fa-chevron-circle-up"></i></a>
-            <img src="logo.png">
-            <img src="fpt.png">
+            <img src="http://localhost/Departement-math-info/Web/Pages/footer/logo.png">
+            <img src="http://localhost/Departement-math-info/Web/Pages/footer/fpt.png">
             <div class="social-media">
-            <a href="https://twitter.com" target="blank"> <i class="fab fa-twitter"></i> </a>
-                <a href="https://facebook.com/siteFPT/" target="blank"> <i class="fab fa-facebook-f"></i> </a>
-                <a href="https://www.youtube.com/channel/UCJkXdGXw4vGU7QhHNa61OTA" target="blank"> <i class="fab fa-youtube"></i> </a>
-                <a href="https://aboutme.google.com" target="blank"> <i class="fab fa-google-plus-g"></i> </a>
+              <a href="https://twitter.com" target="blank"> <i class="fab fa-twitter"></i> </a>
+              <a href="https://facebook.com/siteFPT/" target="blank"> <i class="fab fa-facebook-f"></i> </a>
+              <a href="https://www.youtube.com/channel/UCJkXdGXw4vGU7QhHNa61OTA" target="blank"> <i class="fab fa-youtube"></i> </a>
+              <a href="https://aboutme.google.com" target="blank"> <i class="fab fa-google-plus-g"></i> </a>
             </div>
         </div>
         <div class="right-box">
@@ -43,6 +42,6 @@
         <div class="bottom-box">
             <h3>Departement math infotmatique  | © 2020 All Rights Reserved</h3>
         </div>
-    </footer>
+    </div>
 </body>
 </html>

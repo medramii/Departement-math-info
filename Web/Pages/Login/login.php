@@ -2,28 +2,31 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Login</title>
-	<link rel="stylesheet" href="login.css">
-	<link rel="stylesheet" href="..\..\fontawesome\css\all.min.css">
+	<title></title>
+	<link rel="stylesheet" href="http://localhost/Departement-math-info/Web/Pages/Login/login.css">
 </head>
 <body>
-	<div class="Login">
-			<img src="logo.png" >
-		<div class="formulaire">
-			<form action="">
-				<div class="inputIcon">
-					<input type="text" name="username" placeholder="Username or Email">
-					<i class="fas fa-user-alt"></i>
-				</div>
 
-				<div class="inputIcon">
-					<input type="password" name="password" placeholder="Password">
-					<i class="fas fa-lock"></i>
-				</div>
+	<div class="login_container">
+		<div class="login_dialog" onclick="hide_dialog()"></div>
+		<div class="login_box">
+				<img src="http://localhost/Departement-math-info/Web/Pages/Login/logo.png" >
+			<div class="formulaire">
+				<form action="">
+					<div class="inputIcon">
+						<input type="text" name="username" placeholder="Username or Email">
+						<i class="fas fa-user-alt"></i>
+					</div>
 
-				<input type="submit" name="login" value="Login">
+					<div class="inputIcon">
+						<input type="password" name="password" placeholder="Password">
+						<i class="fas fa-lock"></i>
+					</div>
 
-			</form>
+					<input type="submit" name="login" value="Login">
+
+				</form>
+			</div>
 		</div>
 	</div>
 
