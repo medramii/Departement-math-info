@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #EEEEEE;
+}
+
+.sideBar-content{
+    width: 25%;
+    background-color: #EEEEEE;
+    padding: 20px;
+}
+
+.sideBar-content .Actualite{
+    background-color: #0092ca;
+    padding-bottom: 1px;
+    border-radius: 8px;
+    margin-bottom: 8px;
+    padding: 10px;
+}
+  
+.sideBar-content .Actualite .Actualite-title{
+    color: #EEEEEE;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-left: 8px;
+}
+
+.sideBar-content .Actualite .Actualite-content{
+    margin: 0;
+    padding: 10px;
+    font-size: large;
+    display: block;
+    text-decoration: none;
+    color: #222831;
+    animation: Actualite-content 1.5s ease-in-out infinite both;
+  }
+  
+  
+.sideBar-content .Actualite .Actualite-container {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-align: center;
+}
+
+.sideBar-content .Actualite .Actualite-container .Actualite-content:hover {
+    animation-play-state: paused;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.sideBar-content .departement{
+    background-color: #0092ca;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.sideBar-content .departement p{
+    text-align: center;
+    color: #EEEEEE;
+}
+
+.sideBar-content .departement .departement-title{
+    color: #EEEEEE;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-left: 8px;
+}
+
+.sideBar-content hr{
+    color: #EEEEEE;
+    margin-top: 10px;
+}
+
+.sideBar-content .departement .departement-content{
+    padding: 10px;
+}
+
+.sideBar-content .departement .departement-content span{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: bolder;
+    color: #393e46;
+}
+
+.sideBar-content .departement .departement-content img{
+    width: 120px;
+    height: 130px;
+    margin-top: 10px;
+    margin-left: 27%;
+}
+
+.sideBar-content .departement .departement-content h3{
+    color: #222831;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.sideBar-content .departement .departement-content p{
+    color: #222831;
+    margin-top: 10px;
+    text-align: left;
+}
+
+
+  @keyframes Actualite-content {
+    from {
+              transform: scale(1);
+              transform-origin: center center;
+              animation-timing-function: ease-out;
+    }
+    10% {
+              transform: scale(0.91);
+              animation-timing-function: ease-in;
+    }
+    17% {
+              transform: scale(0.98);
+              animation-timing-function: ease-out;
+    }
+    33% {
+              transform: scale(0.87);
+              animation-timing-function: ease-in;
+    }
+    45% {
+              transform: scale(1);
+              animation-timing-function: ease-out;
+    }
+  }
+  
+  
+  
+  

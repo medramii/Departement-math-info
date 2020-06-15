@@ -20,7 +20,7 @@ body{
 .na,.h3,.tr,.qau,.cin{ display:inline-block; justify-content:space-around; border-radius: 4px; text-align: center;}
 
 
-.h3{ background-color: #0092CA; height: 45px;  padding:8px; font-style: oblique; width: 830px;  }
+.h3{ background-color: #0092CA; height: 45px;  padding:8px; font-style: oblique; width: 830px;}
 
  .trois{ center; border-bottom: 1px solid black; border-left: 1px solid black;  border-right: 1px solid black; height: 470px; width: 830px; padding: 10px;}
 
