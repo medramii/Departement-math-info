@@ -18,7 +18,11 @@
     </header>
     <main>
       <section id="sidebar">
-
+        <?php include 'Pages\Avis\avis.php'; ?>
+        <?php include 'Pages\Avis\avis.php'; ?>
+        <?php include 'Pages\Avis\avis.php'; ?>
+        <?php include 'Pages\Avis\avis.php'; ?>
+        <?php include 'Pages\Avis\avis.php'; ?>
       </section>
       <section id="annonce">
         <?php include 'Pages\Annonce\annonce.html'; ?>
@@ -29,11 +33,25 @@
         <?php include 'Pages\Avis\avis.php'; ?>
         <?php include 'Pages\Avis\avis.php'; ?>
         <?php include 'Pages\Avis\avis.php'; ?>
+        <?php include 'Pages\Avis\avis.php'; ?>
+        <?php include 'Pages\Avis\avis.php'; ?>
+        <?php include 'Pages\Avis\avis.php'; ?>
+        <?php include 'Pages\Avis\avis.php'; ?>
+        <?php include 'Pages\Avis\avis.php'; ?>
+        <?php include 'Pages\Avis\avis.php'; ?>
+        <?php include 'Pages\Avis\avis.php'; ?>
+        <?php include 'Pages\Avis\avis.php'; ?>
+        <?php include 'Pages\Avis\avis.php'; ?>
+        <?php include 'Pages\Avis\avis.php'; ?>
+        <?php include 'Pages\Avis\avis.php'; ?>
+        <?php include 'Pages\Avis\avis.php'; ?>
+        <?php include 'Pages\Avis\avis.php'; ?>
       </section>
-      <section id="about">
-        <?php include 'Pages\About\about.php'; ?>
-      </section>
+
     </main>
+    <section id="about">
+      <?php include 'Pages\About\about.php'; ?>
+    </section>
     <footer>
       <?php include 'Pages\footer\footer.php'; ?>
     </footer>

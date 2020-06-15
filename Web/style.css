@@ -8,8 +8,12 @@ footer{
   /* margin-bottom: 0; */
 }
 main{
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px
 }
 
 
@@ -19,27 +23,18 @@ main{
 
 
 #sidebar{
-  height: 800px;
-  background-color: red;
   grid-column: 1;
   grid-row: 1 / 4
 }
 #annonce{
-  height: 400px;
-  background-color: yellow;
   grid-column: 2 / 4;
   grid-row: 1
 }
 #avis{
-  height: 400px;
-  overflow-y: scroll;
-  background-color: maroon;
   grid-column: 2 / 4;
   grid-row: 2
 }
-#about{
-  height: 400px;
-  background-color: lightgreen;
+/* #about{
   grid-column: 1 / 4;
   grid-row: 3
-}
+} */

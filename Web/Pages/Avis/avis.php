@@ -8,15 +8,15 @@
   <body>
 
     <div class="avis_container">
-      <a href="avis-info.html" class="link">
-        <div class="card mb-3" style="max-width: 18rem;">
+      <a href="#" class="link">
+        <div class="card mb-3">
         <div class="card-header">Avis</div>
         <div class="card-body">
-          <h5 class="card-title">this is the Title</h5>
-          <p class="card-text">this is the content of the Avis.</p>
+          <h5 class="card-title">TP5 technology web</h5>
+          <!-- <p class="card-text">tp 5 technology web</p> -->
           <hr>
-          <p> the class that interested in this avis</p>
-          <p class="date">La date de l'avis</p>
+          <p><b>LP GI S4</b></p>
+          <p class="date"><b>02-05-2020</b></p>
         </div>
       </div>
       </a>
