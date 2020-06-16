@@ -4,7 +4,7 @@ body{
 
 .container{text-align: center; }
 
-.prem{  width:70%; height: auto; text-align: center; background-color: #EEEEEE; display:inline-block; justify-content:space-around; box-shadow: 5px 8px 8px 5px lightgray; text-align: left; border-radius: 8px;}
+.prem{  width:70%; height: auto; text-align: center; background-color: #EEEEEE; display:inline-block; justify-content:space-around; box-shadow: 1px 1px 10px #222831; text-align: left; border-radius: 8px;}
 
 .prem .h1{  color: blue; text-align:center; }
 
@@ -16,7 +16,7 @@ p{ font-size: 20px; margin: 15px; }
 
 h3{ background-color: #0092CA; padding-top: 10px; padding-bottom: 10px; font-style: oblique; width: 100%; display:inline-block; justify-content:space-around; border-radius: 8px 8px 0px 0px; text-align: center; margin: 0;}
 
-.deux, .trois, .qautre, .cinq, .img1, .img2, .cFiliere{ background-color: white; border: 1px solid black;  border-top: none; height: auto; width: 70%; display:inline-block; justify-content: space-around; box-shadow: 5px 8px 8px 5px lightgray; text-align: left; border-radius: 8px;}
+.deux, .trois, .qautre, .cinq, .img1, .img2, .cFiliere{ background-color: white; height: auto; width: 70%; display:inline-block; justify-content: space-around; box-shadow: 1px 1px 10px #222831; text-align: left; border-radius: 8px;}
 
 .cFiliere{ margin-top: 20px;}
 

@@ -13,7 +13,7 @@
 
       <div class="prem">
         <div class="images">
-        <img src="logo.png" alt="photo" height="200px" width="95%">
+        <img src="logo.png" alt="photo" width="60%">
         </div>
         <h1 class="h1">Génie Informatique</h1>
         <h2> * licence professionelle *</h2>
