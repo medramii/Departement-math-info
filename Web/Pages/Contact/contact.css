@@ -1,8 +1,8 @@
-
-body{
-	text-align:center;
+*{
+	box-sizing: border-box;
 }
-.div{
+.right-box{
+	text-align: center;
 	border:2px solid#0092CA;
 	border-radius: 3px;
 	height: 280px;
@@ -10,38 +10,73 @@ body{
 
 }
 
-.b{
+.left-box{
+	text-align: center;
+	border:2px solid#0092CA;
+	border-radius: 3px;
+	height: auto;
+	width: 30%;
+	padding: 5px;
+}
+
+span{
 	display: flex;
-   margin:2px;
+	margin: 4px;
+	color: #393e46;
 }
 
 .container{
-padding: 10px;
-margin-left: 250px;
-margin-right: 250px;
-box-shadow: 5px 10px 10px 5px gray;
-border: 3px solid #EEEEEE;
-border-radius: 3px;
-display: flex;
-flex-direction: row;
-justify-content: space-around;
-text-align: center;
-height: 590px;
-
-
+	background-color: #0092ca;
+	padding: 10px;
+	box-shadow: 5px 10px 10px 5px gray;
+	border-radius: 8px;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	text-align: center;
+	height: 590px;
 }
-.cls,.cl{
-	width: 270px;
-	height: 25px;
-	border-color: rgba(0,0,0,0);
-	background-color: rgba(230,230,230,2);
-	border-radius: 3px;
+
+.cls, .cl{
+	width: 100%;
+	height: 30px;
+	background-color: #EEEEEE;
+	border-radius: 4px;
+	padding-left: 10px;
+}
+
+.send{
+	height: 30px;
+	color: #EEEEEE;
+	background-color: #0092CA;
+	width: 100%;
+	border: 2px solid #EEEEEE;
+    border-radius: 3px;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+h1{
+	margin-bottom: 0px;
+	color: #222831;
+}
+
+hr{
+	width: 100px;
+	height: 2px;
+	background-color:#222831;
+	border: none;
+	margin-bottom: 20px;
+}
+
+.right-box i{
+	margin-right: 10px;
+	margin-top: 2px;
 }
 
 .cls:hover{     background-color: lightgray; transition: 0.8s;   }
 
-
-.cls:focus{  border: 1.7px solid#0092CA;  transition: 0.2s;   }
+.cls:focus{  border: 1.7px solid#0092CA;  transition: 0,2s;   }
 
 .cl:focus{  border: 1.7px solid#0092CA ;    transition: 0.2s; }
 
@@ -49,19 +84,7 @@ height: 590px;
 
 .send:focus{  border: 1.7px solid#0092CA ;   transition: 0.2s;  }
 
-.send:hover{  background-color: lightgray; transition: 0.8s;  }
+.send:hover{  background-color: #EEEEEE; transition: 0.5s; color: #0092CA;}
 
-.cl{	max-height: 170px; min-height: 170px; max-width: 270px; min-width: 270px;}
+.cl{ max-height: 250px; min-height: 100px; padding-top: 10px; max-width: 100%; min-width: 100%;}
 
-.send{
-	height: 30px;
-	background-color: #0092CA;
-	width: 270px;
-    border-radius: 3px;
-    font-size: 15px;
-    }
-.hr{
-width: 50px;
-height: 3px;
-background-color:blue;
-}
