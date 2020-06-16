@@ -15,7 +15,7 @@
 	<div class="container">
 		<div class="left-box">
 			<form>
-				<h1>Contactez nous :</h1>
+				<h1>Contactez nous </h1>
 				<hr>
 				<input type="text" placeholder="Your Name" name="name" class="cls">
 				<br> <br>
@@ -29,13 +29,13 @@
 			</form>
 		</div>
 		<div  class="right-box">
-			<span><i class="fa fa-map-marker-alt" aria-hidden="true"></i><b>Adress &nbsp &nbsp &nbsp : &nbsp &nbsp</b> Hay El Mouhammadi - (Lastah) - B.P: 207 - 83000 Taroudant, Maroc</span>
+			<span><i class="fa fa-map-marker-alt" aria-hidden="true"></i><b>Adress &nbsp &nbsp &nbsp &nbsp &nbsp : &nbsp &nbsp</b> Hay El Mouhammadi - (Lastah) - B.P: 207 - 83000 Taroudant, Maroc</span>
 			<br>
-			<span><i class="fa fa-phone"></i><b>Tel &nbsp &nbsp &nbsp : &nbsp &nbsp</b> +212 5 28 55 10 10</span>
+			<span><i class="fa fa-phone"></i><b>Tel &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp : &nbsp &nbsp</b> +212 5 28 55 10 10</span>
 			<br>
 			<span><i class="fa fa-fax" aria-hidden="true"></i><b>Fax &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp: &nbsp &nbsp</b> +212 5 28 55 10 20</span>
 			<br>
-			<span><i class="fa fa-envelope" aria-hidden="true"></i><b>Email &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp: &nbsp &nbsp </b> departement_fpt@gmail.com</span>
+			<span><i class="fa fa-envelope" aria-hidden="true"></i><b>Email&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp : &nbsp &nbsp </b> departement_fpt@gmail.com</span>
 			<br>
 			<span><i class="fab fa-facebook-square"></i><b>Fecebook &nbsp &nbsp &nbsp : &nbsp &nbsp</b> Antari Jelali</span>
 			<br>
