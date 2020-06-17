@@ -1,0 +1,54 @@
+.avis_container *{
+  box-sizing: border-box
+}
+.avis_container{
+  width: 272px;
+  height: 170px;
+  margin-bottom: 5px;
+  padding: 0;
+  display: inline-block
+}
+.avis_container .card{
+  width: 100%;
+  height: 100%;
+  background-color: #eeeeee;
+  box-shadow: 0 0 1px #393e46;
+
+  color: #393e46;
+  /* border-color: #0092ca; */
+  border-radius: 5px;
+  align-items: center;
+  /* justify-content: center; */
+  cursor: pointer;
+  transition: all .2s ease-in-out
+}
+.avis_container .card:hover{
+    /* transform: scale(1.05); */
+    box-shadow: 0 0 5px #393e46;
+    background-color:rgba(0, 146, 202, 0.1);
+    /* z-index: 999; */
+}
+.avis_container .card-body{
+  height: auto;
+  padding: 10px
+}
+.avis_container h5, .avis_container p:not(.date){
+  text-align: center;
+}
+.avis_container .card hr{
+  margin: 10px;
+  margin-bottom: 5px;
+  width: 200px
+}
+.avis_container .bg-primary{
+  background-color: #eeeeee;
+}
+
+.avis_container a.link{
+  color: inherit;
+  text-decoration: none;
+}
+.avis_container .date{
+  font-size: 10px;
+  text-align: right;
+}
