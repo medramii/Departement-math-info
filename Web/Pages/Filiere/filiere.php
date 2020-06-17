@@ -3,24 +3,27 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" >
-    <title>filiere</title>
+    <title>Filiere</title>
+    <link rel="stylesheet" href="http://localhost/Departement-math-info/Web/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://localhost/Departement-math-info/Web/fontawesome/css/all.min.css">
     <link rel="stylesheet"  type="text/css" href="filiere.css">
   </head>
   <body>
 
     <header>
-      <?php include 'http://localhost/Departement-math-info/Web/Pages/Login/login.php'; ?>
-      <?php include 'http://localhost/Departement-math-info/Web/Pages/Navbar/nav.php'; ?>
+      <?php include '..\Login\login.php'; ?>
+      <?php include '..\Navbar\nav.php'; ?>
     </header>
     <main>
       <div class="container">
-
         <div class="prem">
           <div class="images">
-          <img src="logo.png" alt="photo" width="60%">
+            <img src="logo.png" alt="Departement Math Informatique" width="40%" style="margin-top: 15px">
           </div>
-          <h1 class="h1">Génie Informatique</h1>
-          <h2> * licence professionelle *</h2>
+          <h5><span class="badge badge-pill" id="sl">Licence professionelle</span></h5>
+          <h5><span class="badge badge-pill" id="sr">Génie Informatique</span></h5>
+          <!-- <h1 class="h1"><b>Génie Informatique</b></h1>
+          <h6><b>licence professionelle</b></h6> -->
         </div>
         <br><br>
         <div class="deux">
@@ -87,18 +90,21 @@
             <h4>Youssef ES-SAADY </h4>
             <h6>y.essaady@uiz.ac.ma</h6>
           </div>
-          <div class="images">
+          <!-- <div class="images">
             <img src="page.jpg" alt="photo" class="im2">
-          </div>
+          </div> -->
         </div>
-
       </div>
-
     </main>
     <footer>
-      <?php include 'http://localhost/Departement-math-info/Web/Pages/footer/footer.php'; ?>
+      <?php include '..\footer\footer.php'; ?>
     </footer>
 
-
+    <!-- +++++++++++++++++++ scripts ++++++++++++++++++++ -->
+      <script type="text/javascript" src="filiere.js"></script>
+      <script src="http://localhost/Departement-math-info/Web/jQuery/jquery-3.5.1.min.js"></script>
+      <script src="https://unpkg.com/@popperjs/core@2.4.2/dist/umd/popper.min.js"></script>
+      <script src="http://localhost/Departement-math-info/Web/bootstrap/js/bootstrap.min.js"></script>
+    <!-- ++++++++++++++++++++++++++++++++++++++++++++++++ -->
   </body>
-  </html>
+</html>

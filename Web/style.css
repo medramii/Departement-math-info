@@ -8,9 +8,10 @@ footer{
   /* margin-bottom: 0; */
 }
 main{
-  padding-top: 50px;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding: 50px;
+  padding-bottom: 0
+}
+.main{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 20px

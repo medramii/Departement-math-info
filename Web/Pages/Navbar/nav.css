@@ -1,18 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
 .navbar_container *{
   box-sizing: border-box;
+  outline: none
+}
+.navbar_container .cover{
+  width: 100%;
+  height: auto;
+  padding: 20px;
+  padding-bottom: 0;
+  background-color: #393e46
+}
+.navbar_container .cover img{
+  width: 35%;
+  height: auto;
+  margin-left: 32.5%
+}
+.navbar_container .navbar-toggler{
+  /* position: absolute; */
+  width: 35%;
+  height: auto;
+  margin: 0 auto;
+  outline: none;
+  /* right: 20px; */
+  /* top: -70px */
 }
 .navbar_container .navbar{
     background-color: #393e46;
-    box-shadow: 0 0 2px #0092ca;
+    box-shadow: 0 0 10px #393e46;
     padding-top: 0;
     padding-bottom: 0
+}
+.navbar_container .fas{
+  font-size: 20px;
+}
+.fixed-top{
+  position: fixed;
+  top: 0;
+  height: 50px;
+  line-height: 50px;
 }
 .navbar_container .navbar .container{
   width: 100%;
   max-width: 100%;
   margin-left: 30px;
   margin-right: 30px;
-  line-height: 2
+  /* line-height: 2 */
 }
 .navbar_container .navbar .container .navbar-brand{
   color: #eeeeee;
@@ -23,6 +55,11 @@
 .navbar_container .nav-link {
     padding-right: 0;
     padding-left: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 18px;
+    line-height: 1.75;
+    font-family: 'Questrial', sans-serif;
 }
 .navbar_container .active > .nav-link{
   color: #eeeeee;

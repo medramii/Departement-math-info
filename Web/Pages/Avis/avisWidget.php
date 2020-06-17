@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title></title>
-    <link rel="stylesheet" href="http://localhost/Departement-math-info/Web/Pages/Avis/avis.css">
+    <link rel="stylesheet" href="http://localhost/Departement-math-info/Web/Pages/Avis/avisWidget.css">
   </head>
   <body>
 

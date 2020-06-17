@@ -1,25 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
 body{
   background-color: #EEEEEE;
+  font-family: 'Questrial', sans-serif;
+}
+main{
+  padding: 50px;
+  width: 100%
+}
+.container{
+  margin: 0 auto;
+  text-align: center
+}
+.prem{
+  position: relative;
+  width:100%;
+  height: auto;
+  text-align: center;
+  background-color: #EEEEEE;
+  display:inline-block;
+  justify-content:space-around;
+  box-shadow: 0px 2px 7px #222831;
+  text-align: left;
+  border-radius: 8px;
 }
 
-.container{text-align: center; }
+.prem span{
+  background-color: #393e46;
+  color: #eeeeee;
+  position: absolute;
+  bottom: 10px;
+}
+.prem #sl{
+  left: 1%
+}
+.prem #sr{
+  right: 1%
+}
 
-.prem{  width:70%; height: auto; text-align: center; background-color: #EEEEEE; display:inline-block; justify-content:space-around; box-shadow: 1px 1px 10px #222831; text-align: left; border-radius: 8px;}
+h6{
+  text-align: center;
+}
 
-.prem .h1{  color: blue; text-align:center; }
+p{
+  font-size: 20px;
+  margin: 15px;
+}
 
-h2{ text-align: center;}
-
-p{ font-size: 20px; margin: 15px; }
-
-.im1, .im2{ margin: 10px;  width: 95%;}
-
-h3{ background-color: #0092CA; padding-top: 10px; padding-bottom: 10px; font-style: oblique; width: 100%; display:inline-block; justify-content:space-around; border-radius: 8px 8px 0px 0px; text-align: center; margin: 0;}
-
-.deux, .trois, .qautre, .cinq, .img1, .img2, .cFiliere{ background-color: white; height: auto; width: 70%; display:inline-block; justify-content: space-around; box-shadow: 1px 1px 10px #222831; text-align: left; border-radius: 8px;}
-
-.cFiliere{ margin-top: 20px;}
-
-.chef{height: auto; width: 100%;  text-align: center; border-bottom: 1px solid black;}
-
-.images{ text-align: center; }
+.im1, .im2{
+  margin: 10px;
+  width: 95%
+}
+h3{
+  background-color: #393e46;
+  color: #eeeeee;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: 300;
+  width: 100%;
+  display:inline-block;
+  justify-content:space-around;
+  border-radius: 8px 8px 0px 0px;
+  text-align: center;
+  margin: 0;
+}
+.deux, .trois, .qautre, .cinq, .img1, .img2, .cFiliere{
+  background-color: #eeeeee;
+  height: auto;
+  width: 100%;
+  display:inline-block;
+  justify-content: space-around;
+  box-shadow: 0 2px 7px #222831;
+  text-align: left;
+  border-radius: 8px;
+}
+.cFiliere{
+  margin-top: 20px;
+}
+.chef{
+  padding: 20px;
+  text-align: center
+}
+.images{
+  text-align: center;
+}
