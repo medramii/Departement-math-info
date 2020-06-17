@@ -12,3 +12,6 @@
 .login_container *{
   all: revert
 }
+.sideBar-content *{
+  all: revert
+}

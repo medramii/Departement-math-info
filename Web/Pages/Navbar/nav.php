@@ -22,7 +22,7 @@
             <div class="collapse navbar-collapse" id="menu">
               <ul class="nav navbar-nav ml-auto">
                 <li class="nav-item active"><a href="" class="nav-link">Home</a></li>
-                <li class="nav-item"><a href="#Filiere" class="nav-link">Filiere</a></li>
+                <li class="nav-item"><a href="http://localhost/Departement-math-info/Web/Pages/Filiere/filiere.php" class="nav-link">Filiere</a></li>
                 <li class="nav-item"><a href="#About" class="nav-link">About</a></li>
                 <li class="nav-item"><a href="#Contact" class="nav-link">Contact</a></li>
                 <li class="nav-item"><a href="#Connexion" class="nav-link" onclick="show_dialog()">Connexion <i class="fas fa-sign-in-alt"></i></a></li>

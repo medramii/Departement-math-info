@@ -28,7 +28,10 @@ main{
 }
 #annonce{
   grid-column: 2 / 4;
-  grid-row: 1
+  grid-row: 1;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 0 5px #222831
 }
 #avis{
   grid-column: 2 / 4;

@@ -18,23 +18,12 @@
     </header>
     <main>
       <section id="sidebar">
-        <?php include 'Pages\Avis\avis.php'; ?>
-        <?php include 'Pages\Avis\avis.php'; ?>
-        <?php include 'Pages\Avis\avis.php'; ?>
-        <?php include 'Pages\Avis\avis.php'; ?>
-        <?php include 'Pages\Avis\avis.php'; ?>
+        <?php include 'Pages\sideBar\sideBar.php'; ?>
       </section>
       <section id="annonce">
         <?php include 'Pages\Annonce\annonce.html'; ?>
       </section>
       <section id="avis">
-        <?php include 'Pages\Avis\avis.php'; ?>
-        <?php include 'Pages\Avis\avis.php'; ?>
-        <?php include 'Pages\Avis\avis.php'; ?>
-        <?php include 'Pages\Avis\avis.php'; ?>
-        <?php include 'Pages\Avis\avis.php'; ?>
-        <?php include 'Pages\Avis\avis.php'; ?>
-        <?php include 'Pages\Avis\avis.php'; ?>
         <?php include 'Pages\Avis\avis.php'; ?>
         <?php include 'Pages\Avis\avis.php'; ?>
         <?php include 'Pages\Avis\avis.php'; ?>
