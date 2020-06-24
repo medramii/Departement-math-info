@@ -9,7 +9,7 @@
 <body>
     <div class="footer_container">
         <div class="left-box">
-            <a href="#navbar"><i class="fas fa-chevron-circle-up"></i></a>
+            <a href="#main" class="sc"><i class="fas fa-chevron-circle-up"></i></a>
             <img src="http://localhost/Departement-math-info/Web/Pages/footer/logo.png">
             <img src="http://localhost/Departement-math-info/Web/Pages/footer/fpt.png">
             <div class="social-media">
@@ -43,5 +43,6 @@
             <h3>Departement math infotmatique  | © 2020 All Rights Reserved</h3>
         </div>
     </div>
+    <script src="http://localhost/Departement-math-info/Web/jQuery/jquery-3.5.1.min.js"></script>
 </body>
 </html>

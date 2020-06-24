@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+
+
+.contact_dialog{
+  display: none;
+}
+
+.back{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: #222831;
+  opacity: 90%;
+  z-index: 999
+}
+
+.contact_container *{
+	box-sizing: border-box;
+  font-family: 'Questrial', sans-serif;
+	outline: none
+}
+
+.contact_container{
+  font-size:14px;
+  line-height:1.42857143;
+  position: relative;
+  display: flex;
+  width: 80%;
+  height: auto;
+  margin: 30px auto;
+  padding: 80px 0 20px 0;
+  background-color: #EEEEEE;
+  box-shadow: 0 0 10px #393e46;
+  border-radius: 20px 20px 8px 8px;
+  text-align: center;
+  align-items: center;
+  justify-content: space-evenly;
+  /* overflow: hidden; */
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  z-index: 999;
+}
+
+.contact_container .header{
+  font-size:34px;
+  line-height:1.1;
+  position: absolute;
+  width: 100%;
+  height: auto;
+  top: 0;
+  margin: 0;
+  padding: 10px 0 10px 0;
+  background-color: #393e46;
+  color: #eeeeee;
+  font-weight: bold;
+  border-radius: 8px 8px 0 0
+}
+
+.contact_container .left-box{
+  text-align: center;
+  width: 30%;
+}
+
+.contact_container input,.contact_container textarea {
+  margin:0;
+}
+
+.contact_container .left-box .inputs{
+	width: 100%;
+	height: 35px;
+	background-color: #eeeeee;
+	border: 1px solid rgba(57, 62, 70, 0.5);
+	border-radius: 4px;
+	padding-left: 15px;
+	outline: none;
+}
+
+.contact_container .left-box .inputs:focus{
+	border-color: rgba(57, 62, 70, 1);
+}
+
+.contact_container .left-box .check{
+	width: 30%;
+	display: inline-block;
+}
+
+.contact_container .left-box .msg{
+  max-height: 166px;
+  min-height: 166px;
+  padding: 10px 10px 15px 10px;
+  max-width: 100%;
+  min-width: 100%;
+}
+
+.contact_container .left-box .count{
+	position: absolute;
+	width: 41px;
+	padding-right: 0;
+	left: 340px;
+	bottom: 60px;
+	text-align: right;
+	color: rgba(57, 62, 70, 1);
+	font-size: 11px;
+}
+
+.contact_container .left-box .send{
+	height: 30px;
+	color: rgba(57, 62, 70, 0.5);
+	background-color: #EEEEEE;
+	width: 100%;
+  margin-top: 5px;
+	border: 2px solid rgba(57, 62, 70, 0.5);
+  border-radius: 3px;
+	font-weight: bold;
+	font-size: 16px;
+	transition: all .3s ease-in-out;
+}
+
+.contact_container .left-box .send:hover{
+	border-color: rgba(57, 62, 70, 0);
+  background-color: rgba(57, 62, 70, 1);
+  color: #EEEEEE;
+  cursor: pointer;
+}
+
+.contact_container .right-box{
+  text-align: center;
+  border-radius: 3px;
+  height: auto;
+	margin-top: -20px
+
+}
+
+.contact_container .right-box span{
+  display: flex;
+  margin: 4px;
+  line-height: 1;
+  color: rgba(57, 62, 70, 1);
+}
+
+.contact_container .right-box a{
+	text-decoration: none;
+	color: rgba(57, 62, 70, 1);
+}
+
+.contact_container .right-box i{
+	margin-right: 10px;
+	margin-top: 2px;
+}
+
+
+
+
+
+
+/* ---- the radio box style ---- */
+
+.object {
+  display: inline-block;
+  position: relative;
+	padding-top: 9px;
+  padding-left: 33px;
+  margin-bottom: 12px;
+	/* width: 30%; */
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 600;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.object input {
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkmark {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  height: 12px;
+  width: 12px;
+  background-color: rgba(57, 62, 70, .08);
+  border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.object:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.object input:checked ~ .checkmark {
+  background-color: rgba(57, 62, 70, .8);
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.object input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.object .checkmark:after {
+ 	top: 4px;
+	left: 4px;
+	width: 4px;
+	height: 4px;
+	border-radius: 50%;
+	background: #eeeeee;
+}

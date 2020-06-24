@@ -22,8 +22,6 @@
           </div>
           <h5><span class="badge badge-pill" id="sl">Licence professionelle</span></h5>
           <h5><span class="badge badge-pill" id="sr">Génie Informatique</span></h5>
-          <!-- <h1 class="h1"><b>Génie Informatique</b></h1>
-          <h6><b>licence professionelle</b></h6> -->
         </div>
         <br><br>
         <div class="deux">

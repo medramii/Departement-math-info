@@ -8,7 +8,7 @@
 <body>
 
 	<div class="login_container">
-		<div class="login_dialog" onclick="hide_dialog()"></div>
+		<div class="login_dialog" onclick="hide_dialog(login)"></div>
 		<div class="login_box">
 				<img src="http://localhost/Departement-math-info/Web/Pages/Login/logo.png" >
 			<div class="formulaire">

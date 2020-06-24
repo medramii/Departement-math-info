@@ -28,3 +28,11 @@ window.onscroll = function(){
   }
 }
 /*-----------------------------------------------*/
+$(document).ready(function(){
+  $('.sc').click(function (e){
+    var l = $(this).attr('href');
+    $('html,body').animate({
+      scrollTop: $(l).offset().top},500)
+    e.preventDefault();
+  });
+});

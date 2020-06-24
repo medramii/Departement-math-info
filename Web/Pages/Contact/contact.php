@@ -17,15 +17,15 @@
 			<form>
 				<h1>Contactez nous </h1>
 				<hr>
-				<input type="text" placeholder="Your Name" name="name" class="cls">
+				<input type="text" placeholder="votre nom et prenom" name="name" class="cls">
 				<br> <br>
-				<input type="Email"placeholder="Your Email"  name="email" class="cls">
+				<input type="Email"placeholder="votre email"  name="email" class="cls">
 				<br> <br>
-				<input type="tel"placeholder="Your phone"  name="phone" class="cls">
+				<input type="tel"placeholder="votre telephone"  name="phone" class="cls">
 				<br> <br>
-				<textarea  placeholder="Your message" class="cl" ></textarea>
+				<textarea  placeholder="votre message" class="cl" ></textarea>
 				<br> <br>
-				<input type="submit" value="Send" name="Send" class="send">
+				<input type="submit" value="Send" name="send" class="send">
 			</form>
 		</div>
 		<div  class="right-box">

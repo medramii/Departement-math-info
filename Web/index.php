@@ -12,10 +12,12 @@
 
 
 
-    <header>
+    <header id="main">
       <?php include 'Pages\Login\login.php'; ?>
+      <?php include 'Pages\Contact\tst.php'; ?>
       <?php include 'Pages\Navbar\nav.php'; ?>
     </header>
+
     <main>
       <section class="main">
         <aside id="sidebar">
@@ -38,12 +40,15 @@
           <?php include 'Pages\Avis\avisWidget.php'; ?>
           <?php include 'Pages\Avis\avisWidget.php'; ?>
           <?php include 'Pages\Avis\avisWidget.php'; ?>
+          <?php include 'Pages\Avis\avisWidget.php'; ?>
+          <?php include 'Pages\Avis\avisWidget.php'; ?>
         </article>
       </section>
       <section id="about">
         <?php include 'Pages\About\about.php'; ?>
       </section>
     </main>
+
     <footer>
       <?php include 'Pages\footer\footer.php'; ?>
     </footer>
