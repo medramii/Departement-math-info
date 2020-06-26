@@ -19,6 +19,18 @@
             <span class="badge badge-pill tag">avis</span>
           </a>
           <a href="#" class="act_item">
+            <span>avis aux etudiants LP GI S4</span>
+            <span class="badge badge-pill tag">avis</span>
+          </a>
+          <a href="#" class="act_item">
+            <span>avis aux etudiants LP GI S4</span>
+            <span class="badge badge-pill tag">avis</span>
+          </a>
+          <a href="#" class="act_item">
+            <span>avis aux etudiants LP GI S4</span>
+            <span class="badge badge-pill tag">avis</span>
+          </a>
+          <a href="#" class="act_item">
             <span>evenement maroc telecom</span>
             <span class="badge badge-pill tag">annonce</span>
           </a>
@@ -29,10 +41,6 @@
           <a href="#" class="act_item">
             <span>evenement de l enactus</span>
             <span class="badge badge-pill tag">annonce</span>
-          </a>
-          <a href="#" class="act_item">
-            <span>avis aux etudiants SMI</span>
-            <span class="badge badge-pill tag">avis</span>
           </a>
         </div>
     </section>

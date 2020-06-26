@@ -2,7 +2,7 @@ var
   tag = document.getElementsByClassName('tag'),
   act = document.getElementsByClassName('act_item');
 
-for (var i = 0; i < 5; i++) {
+for (var i = 0; i < 7; i++) {
   var
     wTag = parseInt(getComputedStyle(tag[i]).width),
     wAct = parseInt(getComputedStyle(act[i]).width),

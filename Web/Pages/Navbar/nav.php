@@ -23,10 +23,10 @@
 
             <div class="collapse navbar-collapse" id="menu">
               <ul class="nav navbar-nav mx-auto">
-                <li class="nav-item home active"><a href="#main" class="sc nav-link">Home</a></li>
+                <li class="nav-item active"><a href="#main" class="sc nav-link">Home</a></li>
                 <li class="nav-item" id="flr"><a href="http://localhost/Departement-math-info/Web/Pages/Filiere/filiere.php" class="nav-link">Filiere</a></li>
                 <li class="nav-item"><a href="#" class="nav-link">Avis</a></li>
-                <li class="nav-item about"><a href="#about" class="sc nav-link">About</a></li>
+                <li class="nav-item"><a href="#about" class="sc nav-link">About</a></li>
                 <!-- <li class="nav-item"><span class="nav-link" onclick="show_cdialog()">Contact</span></li> -->
                 <span class="nav-link" onclick="show_dialog(contact)">Contact</span>
               </ul>

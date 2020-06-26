@@ -36,12 +36,6 @@
           <?php include 'Pages\Avis\avisWidget.php'; ?>
           <?php include 'Pages\Avis\avisWidget.php'; ?>
           <?php include 'Pages\Avis\avisWidget.php'; ?>
-          <?php include 'Pages\Avis\avisWidget.php'; ?>
-          <?php include 'Pages\Avis\avisWidget.php'; ?>
-          <?php include 'Pages\Avis\avisWidget.php'; ?>
-          <?php include 'Pages\Avis\avisWidget.php'; ?>
-          <?php include 'Pages\Avis\avisWidget.php'; ?>
-          <?php include 'Pages\Avis\avisWidget.php'; ?>
         </article>
       </section>
       <section id="about">
