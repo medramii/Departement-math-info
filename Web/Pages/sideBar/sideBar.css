@@ -11,7 +11,9 @@
     width: 100%;
     background-color: transparent;
     padding: 30px;
+    padding-left: 0;
     padding-top: 0;
+    padding-bottom: 0
 }
 
 .sidebar_container .actualite, .sidebar_container .departement{
@@ -22,6 +24,13 @@
     background-color: #eeeeee;
     border-radius: 5px;
     box-shadow: 0 1px 5px #393e46;
+}
+
+.sidebar_container .departement{
+  margin-bottom: 0;
+  height: 472px;
+  /* max-height: 472px; */
+  /* overflow-y: hidden; */
 }
 
 .sidebar_container .act_header, .sidebar_container .dept_header{
@@ -101,11 +110,16 @@
 
 .sidebar_container .dept_body p{
   color: #222831;
+  max-height: 240px;
   margin: 10px;
   padding: 0 10px 0 10px;
   text-align: justify;
+  overflow-y: scroll;
 }
 
+.sidebar_container .dept_body p::-webkit-scrollbar{
+  width: 0
+}
 
 
 

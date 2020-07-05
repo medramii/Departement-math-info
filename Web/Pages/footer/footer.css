@@ -25,13 +25,15 @@
 .footer_container .fa-chevron-circle-up{
     position: absolute;
     left: 90%;
-    top: 0px;
+    top: 25px;
     color: #0092ca;
     font-size: 30px;
+    animation: gotop .7s infinite ease-in-out alternate
 }
 
 .footer_container .fa-chevron-circle-up:hover{
-    color: #EEEEEE;
+    color: #0092ca;
+    animation: none
 }
 
 .footer_container .social-media  i{
@@ -140,6 +142,22 @@
     top: 50%;
     transform: translate(-50%,-50%);
 }
+
 .footer_container a{
   text-decoration: none
+}
+
+
+
+@keyframes gotop {
+  0%{
+    color: #eeeeee;
+    opacity: 0;
+    top: 30px;
+  }
+  100%{
+    color: #0092ca;
+    opacity: 100%;
+    top: 20px;
+  }
 }

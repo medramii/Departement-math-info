@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+.allAvis{
+  display:inline-block;
+  width: auto;
+  height: auto;
+  margin: 20px;
+  background-color: #eeeeee;
+  /* box-shadow: 0 0 3px #222831; */
+  text-align: center;
+  border-radius: 8px;
+}
+.allAvis .header{
+  display:inline-block;
+  width: 100%;
+  margin: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #393e46;
+  color: #eeeeee;
+  font-family: 'Questrial', sans-serif;
+  font-weight: 300;
+  border-radius: 8px 8px 0px 0px;
+  text-align: center
+}
+.allAvis .body{
+  width: 100%;
+  padding-top: 20px
+}
+.allAvis .body .avis_container{
+  margin: 11px;
+  margin-top: inherit;
+}

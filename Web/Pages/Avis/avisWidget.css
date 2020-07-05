@@ -12,22 +12,18 @@
   width: 100%;
   height: 100%;
   background-color: #eeeeee;
-  /* box-shadow: 0 0 1px #393e46; */
-
+  box-shadow: 5px 5px 6px -6px #393e46;
   color: #393e46;
-  /* border-color: #0092ca; */
+  border-right: none;
+  border-bottom: none;
+  border-color: rgba(57, 62, 70, 0.05);
   border-radius: 5px;
   align-items: center;
-  /* justify-content: center; */
   cursor: pointer;
-  /* box-shadow:  0 0 10px #393e46; */
   transition: all .2s ease-in-out
 }
 .avis_container .card:hover{
-    /* transform: scale(1.05); */
-    box-shadow: 0 0 5px #393e46;
-    background-color:rgba(0, 146, 202, 0.1);
-    /* z-index: 999; */
+    background-color: rgba(57, 62, 70, 0.03);
 }
 .avis_container .card-body{
   height: auto;

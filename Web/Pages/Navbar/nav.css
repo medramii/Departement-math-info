@@ -55,12 +55,14 @@
   /* line-height: 2 */
 }
 
+.navbar_container .navbar-expand .navbar-nav .nav-link{
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
 .navbar_container .nav-link {
     cursor: pointer;
-    padding-right: 0;
-    padding-left: 10px;
-    margin-right: 10px;
-    margin-left: 10px;
+    text-align: right;
     font-size: 18px;
     line-height: 1.75;
     font-family: 'Questrial', sans-serif;
@@ -69,4 +71,9 @@
 .navbar_container .active > .nav-link{
   color: #eeeeee;
   border-bottom: 2px solid #0092ca
+}
+
+.navbar_container #flr:hover > .dropdown-menu,
+.navbar_container .dropdown-menu:hover{
+  display: block;
 }

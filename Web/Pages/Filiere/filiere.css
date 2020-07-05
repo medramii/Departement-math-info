@@ -1,17 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
-body{
-  background-color: #EEEEEE;
+
+.filiere{
+  width: 100%;
+  padding: 50px;
   font-family: 'Questrial', sans-serif;
 }
-main{
-  padding: 50px;
-  width: 100%
-}
-.container{
+
+.filiere .container{
   margin: 0 auto;
   text-align: center
 }
-.prem{
+
+.filiere .prem{
   position: relative;
   width:100%;
   height: auto;
@@ -24,33 +24,36 @@ main{
   border-radius: 8px;
 }
 
-.prem span{
+.filiere .prem span{
   background-color: #393e46;
   color: #eeeeee;
   position: absolute;
   bottom: 10px;
 }
-.prem #sl{
+
+.filiere .prem #sl{
   left: 1%
 }
-.prem #sr{
+
+.filiere .prem #sr{
   right: 1%
 }
 
-h6{
+.filiere h6{
   text-align: center;
 }
 
-p{
+.filiere p{
   font-size: 20px;
   margin: 15px;
 }
 
-.im1, .im2{
+.filiere .im1, .filiere .im2{
   margin: 10px;
   width: 95%
 }
-h3{
+
+.filiere h3{
   background-color: #393e46;
   color: #eeeeee;
   padding-top: 10px;
@@ -63,7 +66,10 @@ h3{
   text-align: center;
   margin: 0;
 }
-.deux, .trois, .qautre, .cinq, .img1, .img2, .cFiliere{
+
+.filiere .deux, .filiere .trois, .filiere .qautre, .filiere .cinq,
+
+.filiere .img1, .filiere .img2, .filiere .cFiliere{
   background-color: #eeeeee;
   height: auto;
   width: 100%;
@@ -73,13 +79,16 @@ h3{
   text-align: left;
   border-radius: 8px;
 }
-.cFiliere{
+
+.filiere .cFiliere{
   margin-top: 20px;
 }
-.chef{
+
+.filiere .chef{
   padding: 20px;
   text-align: center
 }
-.images{
+
+.filiere .images{
   text-align: center;
 }
